@@ -1,0 +1,164 @@
+.bg-black{
+    background-color: black;
+
+}
+
+.hero{
+    background-color: black;
+    height: 100vh;
+}
+
+.hero_heading{
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.hero_button{
+background-color: rgb(240, 61, 61);
+color: white;
+padding: 1rem 3rem;
+border-style: none;
+margin-bottom: 4rem;
+}
+
+.hero_image{
+    height: 20rem;
+    /* object-fit: cover; */
+    margin-bottom: 4rem;
+    background-repeat: no-repeat;
+}
+
+.commodity{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.commodity_mobile{
+    width: 25rem;
+  
+
+}
+
+.chart{
+    position: absolute;
+    background-color:white;
+    border-style: solid;
+    top: 10rem;
+    margin-left: .5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height: 15rem;
+    color: white;
+    
+}
+
+.data_contain{
+    padding-top: 10rem;
+    margin: 0 auto;
+    width: 60%;
+
+}
+
+.candle{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(106, 106, 214);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: .5rem;
+}
+
+.economic{
+    height: 17rem;
+    background-color: rgb(106, 106, 214);
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: .5rem;
+
+}
+
+.analysis{
+    /* width: 30rem; */
+    height: 17rem;
+    margin-top: 1rem;
+    background-color: rgb(106, 106, 214);
+    /* padding: 1rem 1rem 2rem 1rem; */
+    border-radius: .5rem;
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+  
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .bg-black{
+        background-color: black;
+    
+    }
+    
+    .hero{
+        background-color: black;
+        height: 80vh;
+    }
+    
+    .hero_heading{
+        font-size: 4.5rem;
+        font-weight: 400;
+    
+    }
+    
+    .hero_button{
+    background-color: rgb(240, 61, 61);
+    color: white;
+    padding: 1rem 3rem;
+    border-style: none;
+    }
+    
+    .hero_image{
+        height: 40rem;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+    }
+    
+    .commodity{
+        position: relative;
+    }
+    
+    .chart{
+        position: absolute;
+        background-color:white;
+        border-style: solid;
+        top: 20rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 55rem;
+        height: 25rem;
+        color: white;
+        
+    }
+    
+    .data_contain{
+        padding-top: 10rem;
+        margin: 0 auto;
+        width: 60%;
+    
+    }
+    
+    .candle{
+        width: 30rem;
+        height: 35rem;
+        background-color: rgb(106, 106, 214);
+        padding: 1rem 1rem 2rem 1rem;
+        border-radius: .5rem;
+    }
+    
+    .commodity_mobile{
+        width: 60rem;
+      
+    
+    }
+   
+  }
